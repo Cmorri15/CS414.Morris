@@ -1,0 +1,11 @@
+(executable
+ (name Question1)
+ (modules Question1))
+
+(executable
+ (name Question2)
+ (modules Question2))
+
+(executable
+ (name Question3)
+ (modules Question3))
