@@ -1,0 +1,19 @@
+# --- Valid commands ---
+ls
+ls MYDOCS
+cd
+cd MYDOCS
+cd \
+cat REPORT12.TXT
+print REPORT12.TXT
+exec PROGRAM1.EXE
+
+# --- Invalid commands ---
+cat
+cat MYDOCS
+cd REPORT12.TXT
+cat REPORT12.TXT extra
+foo BAR
+cat TOOLONGNAME.TXT
+cat REPORT12.TOOLONG
+cd TOOLONGFOLDER
