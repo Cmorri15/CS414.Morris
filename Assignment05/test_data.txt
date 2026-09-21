@@ -1,0 +1,52 @@
+# Assignment05 Test Data
+
+# Original commands
+ls
+ls MYDOCS
+cd
+cd MYDOCS
+cd \
+cat REPORT12.TXT
+print REPORT12.TXT
+exec PROGRAM1.EXE
+
+# Variables
+SET $x = hello
+SET $name = Caleb
+echo $x
+echo $name
+
+# Variables in other commands
+ls $x
+cd $x
+cat $x
+print $x
+exec $x
+
+# Expressions
+SET $x = $a
+SET $x = $a + $b
+SET $x = $a - $b
+SET $x = $a * $b
+SET $x = $a / $b
+
+# Operator precedence
+SET $x = $a + $b * $c
+SET $x = $a * $b + $c
+SET $x = ($a + $b) * $c
+SET $x = $a + ($b * $c)
+
+# Variables defined upon first use
+echo $newVariable
+SET $newVariable = hello
+
+# Invalid tests
+SET
+SET $x
+SET $x =
+SET = hello
+echo
+echo hello
+SET $123 = hello
+SET $x = $a +
+SET $x = ($a + $b
