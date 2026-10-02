@@ -67,3 +67,7 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+_build/
+build/
+.DS_Store
+__pycache__/
